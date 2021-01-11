@@ -1,0 +1,41 @@
+<!-- index.html : 첫 메인 홈페이지
+	 로그인 & 회원가입 버튼을 선택 가능 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	<title>☆★서진 & 다영 DB 프로젝트 : 라디오★☆</title>
+	<link rel="stylesheet" type="text/css" href="index.css"> 
+</head>
+
+<body>
+
+<header class="header">
+<div class="container"><nav>
+	<h1 align='center'>☆★서진 & 다영 DB 프로젝트 : 라디오★☆</h1>
+</nav></div> 
+  
+</header>
+
+        <div align='center'>
+		<img src="main.png" alt="logo" width="320" height="150"> <br/><br/>
+		
+		<!-- 로그인 기능 : login.php 이동 -->
+		<form method="POST" action="login.php">
+		<button onclick="location.href='login.php'">로그인</button>
+		</form><br/><br/>
+		
+		<!-- 회원가입 기능 : join.php 이동 -->
+		<form method="POST" action="join.php">
+		<button id="join" onclick="location.href='join.php'">회원가입</button>	  
+		</form>
+        </div>
+	
+ <footer class="footer">
+    <div>
+	<p><strong>DB Final Project</strong><br>
+	&copy IT 1716536 류서진 & 1713437 신다영<br></p></div>
+    </footer>
+</body>
+</html>
